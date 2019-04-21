@@ -1,0 +1,26 @@
+[
+    {"collegeId":1004,
+    "collegeName":"IIT",
+    "state":"Delhi"
+    },
+    {
+    "collegeId":1002,
+    "collegeName":"BIT Mesra",
+    "state":"Ranchi"
+    },
+    {
+    "collegeId":1003,
+    "collegeName":"BITS",
+    "state":"Pilani"
+    },
+    {
+    "collegeId":1001,
+    "collegeName":"Niit",
+    "state":"Suratkal"
+    },
+    {
+    "collegeId":1005,
+    "collegeName":"REC",
+    "state":"Kolkata"
+    }
+    ]

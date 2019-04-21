@@ -1,0 +1,34 @@
+<html>
+    <title CollegeInformation></title>
+</html>
+<html>
+  
+  <body>
+  
+    <table border="3" align="center">
+     
+  <tr>
+    <td (click)="sortingid('collegeId')">College Id</td>
+    <td (click)="sortingname('collegeName')">College Name</td>
+    <td (click)="sortingstate('state')">State</td>
+    <td>Action</td>
+  
+  </tr>
+    <tr *ngFor="let c of college ">
+      <!-- | sorting:column:order -->
+        <td>
+          {{c.collegeId}}
+        </td>
+        <td>
+          {{c.collegeName}}
+        </td>
+        <td>
+          {{c.state}}
+        </td>
+        <td>
+          <button (click)="delete(c.collegeId)" type="button" >Delete</button>
+        </td>
+        </tr>
+  </table>
+  </body>
+</html>
